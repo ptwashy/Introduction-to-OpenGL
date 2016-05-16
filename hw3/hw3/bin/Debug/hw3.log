@@ -1,0 +1,29 @@
+﻿Build started 10/17/2014 7:55:56 PM.
+     1>Project "E:\Projects\CS1566\hw3\hw3\hw3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Skool\microsoft\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinc\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bin\Debug\\" /Fd"bin\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(113): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(114): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(118): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(119): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(187): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(244): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(251): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(269): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(271): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(273): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(278): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(283): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(285): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\projects\cs1566\hw3\hw3\src\main.cpp(287): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         E:\Skool\microsoft\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\hw3d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\hw3d.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\hw3d.lib" /MACHINE:X86 bin\Debug\main.obj
+         bin\Debug\my_gl.obj
+         hw3.vcxproj -> E:\Projects\CS1566\hw3\hw3\bin\hw3d.exe
+     1>Done Building Project "E:\Projects\CS1566\hw3\hw3\hw3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59
